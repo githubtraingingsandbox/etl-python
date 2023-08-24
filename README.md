@@ -24,7 +24,7 @@ I create a GitHub repo called `postgres-dwh` and set up the remote repository on
 Once I enter the folder of my choice, I clone the remote repo to the folder:
 
 ```markdown
-git clone <https://github.com/sdw-online/postgres-dwh.git>
+git clone <https://github.com/githubtraingingsandbox/etl-python.git>
 ```
 
 …then I re-direct myself into the new local repo:
