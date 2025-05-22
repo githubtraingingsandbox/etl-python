@@ -243,16 +243,7 @@ For simplicity’s sake, I've created the following custom roles in this project
 
 An orchestration section is needed for managing how each DWH task will be executed and under what conditions too. Among Airflow, Prefect, Argo to pick from, I went with Prefect because the UI displays the workflows in an elegant, clean and easy-to-flow manner, plus configuration is relatively the quickest out of the available options.
 
-I use `prefect orion start` command in the terminal to access the tasks and flow runs for each DWH activity in the UI, which displays the workflows like this:
-
-[![](https://markdown-videos.deta.dev/youtube/blAhdR6NySk)](https://youtu.be/blAhdR6NySk) 
 
 # Conclusion
 
 Contrary to popular belief, PostgreSQL can serve as a great data warehouse option, but this solely depends on the design decisions that go into it. As long as there is an awareness of the computing resource limitations it carries compared to many cloud data warehousing options like Snowflake, Amazon Redshift, and Google BigQuery, the RDMS system can serve as a high-performant data warehouse that meets business reporting needs in many use-cases.
-
-In my next project I will be walking you through how I migrated this same on-premise travel data into the AWS cloud, and how I built a cloud data warehouse with it using Amazon Redshift that includes more robust technologies like Spark, AWS Athena, AWS Glue and so on.
-
-[**You can find the full source code for this project on my GitHub here.**](https://github.com/sdw-online/postgres-dwh)
-
-Feel free to reach out via my handles: [**LinkedIn**](https://www.linkedin.com/in/stephen-david-williams-860428123/)| [**Email**](mailto:stephenodavidwilliams@gmail.com) | [**Twitter**](https://twitter.com/sdw_online)
